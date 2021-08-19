@@ -1,0 +1,127 @@
+/********** Basic styling **********/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+/********** Base styling **********/
+/********** Body styling **********/
+
+h1 {
+  text-align: center;
+}
+
+/********** Main content styling **********/
+
+h3 {
+  margin: 0;
+  float: right;
+  border: 1px solid black;
+  width: 100px;
+  text-align: center;
+}
+
+p {
+  clear: right;
+  padding: 5px 5px 0 8px;
+}
+
+div#container {
+  overflow: auto;
+  width: 100%;
+}
+
+.div1 {
+  background-color: #808080;
+  border: 1px solid black;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+}
+
+.div2 {
+  background-color: #808080;
+  border: 1px solid black;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+}
+
+.div3 {
+  background-color: #808080;
+  border: 1px solid black;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h3_1 {
+  background-color: #FFB6C1;
+}
+
+.h3_2 {
+  background-color: #B22222;
+  color: white;
+}
+
+.h3_3 {
+  background-color: #F0E68C;
+}
+
+/********** Media styling **********/
+
+@media (min-width: 992px) {
+.div1, .div2, .div3 {
+  float: left;
+  }
+
+.div1 {
+  width: 28%;
+  margin-left: 4%;
+  margin-right: 2%;
+  }
+
+.div2 {
+  width: 28%;
+  margin-left: 2%;
+  margin-right: 2%;
+  }
+
+.div3 {
+  width: 28%;
+  margin-left: 2%;
+  margin-right: 4%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.div1, .div2, .div3 {
+  float: left;
+}
+
+.div1 {
+  width: 44%;
+  margin-left: 4%;
+  margin-right: 2%;
+  }
+
+.div2 {
+  width: 44%;
+  margin-left: 2%;
+  margin-right: 4%;
+  }
+
+.div3 {
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
+  }
+
+}
